@@ -4,7 +4,7 @@ This is a network I built in Packet Tracer while learning networking from scratc
 
 Here's how it started — just 2 switches, a router, and a few PCs:
 
-![Starting topology with 2 subnets](https://github.com/izscaryu/Cisco-packet-tracer-projekt/blob/f5e0a8afd02669644ca7b85627cf5ce7808af425/naPocetkuMreza.png)
+![Starting topology with 2 subnets](https://github.com/izscaryu/Cisco-packet-tracer-projekt/blob/505d7c4699d0ec1340a571258a73dddf9e574239/images/naPocetkuMreza.png)
 ## What's in the network?
 
 The network has 5 subnets across 2 routers. Here's a rough picture:
@@ -32,8 +32,7 @@ The network has 5 subnets across 2 routers. Here's a rough picture:
                    (DNS, Web, Email, FTP)
 ```
 And here's what it actually looks like in Packet Tracer now:
-![Final network topology](https://github.com/izscaryu/Cisco-packet-tracer-projekt/blob/f5e0a8afd02669644ca7b85627cf5ce7808af425/dodaliSwitchIServer.png)
-
+![Final network topology](https://github.com/izscaryu/Cisco-packet-tracer-projekt/blob/505d7c4699d0ec1340a571258a73dddf9e574239/images/dodaliSwitchIServer.png)
 ## What I configured
 - **Subnetting** — split the network into /25 subnets, did the math with block sizes and the 2^n formula
 - **DHCP** — so PCs get their IPs automatically instead of me typing each one manually
