@@ -2,6 +2,9 @@
 
 This is a network I built in Packet Tracer while learning networking from scratch. It started as a simple setup with 2 switches and a few PCs, and I kept adding stuff as I learned new things. The idea is a fictional company called Copa.hr with different departments, a server, and even WiFi.
 
+Here's how it started — just 2 switches, a router, and a few PCs:
+
+![Starting topology with 2 subnets](https://github.com/izscaryu/Cisco-packet-tracer-projekt/blob/f5e0a8afd02669644ca7b85627cf5ce7808af425/naPocetkuMreza.png)
 ## What's in the network?
 
 The network has 5 subnets across 2 routers. Here's a rough picture:
@@ -28,9 +31,10 @@ The network has 5 subnets across 2 routers. Here's a rough picture:
     Subnet 3          Subnet 5
                    (DNS, Web, Email, FTP)
 ```
+And here's what it actually looks like in Packet Tracer now:
+![Final network topology](https://github.com/izscaryu/Cisco-packet-tracer-projekt/blob/f5e0a8afd02669644ca7b85627cf5ce7808af425/dodaliSwitchIServer.png)
 
 ## What I configured
-
 - **Subnetting** — split the network into /25 subnets, did the math with block sizes and the 2^n formula
 - **DHCP** — so PCs get their IPs automatically instead of me typing each one manually
 - **OSPF** — routers share routes with each other so all subnets can talk to each other
