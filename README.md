@@ -79,7 +79,7 @@ Honestly a lot of the learning came from breaking things:
 
 ## Documentation
 
-There's a full Word doc in this repo (Copa_Network_Documentation.docx) with all the details — every command I used, IP tables, how subnetting works, OSPF config, the whole thing. It's like 40+ pages with a glossary and everything.
+There's a full PDF file in this repo (MiniProjekt.pdf) with all the details — every command I used, IP tables, how subnetting works, OSPF config, the whole thing. It's like 40+ pages with a glossary and everything.
 
 ## Tools
 
